@@ -13,8 +13,7 @@ import android.widget.EditText;
 
 public class Farmacia extends AppCompatActivity implements View.OnClickListener{
 
-    Button b;
-    EditText casilla;
+
 
 
     @Override
@@ -34,11 +33,7 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
         });
 
 
-        b = (Button) findViewById(R.id.btn);
 
-        casilla = (EditText) findViewById(R.id.et);
-
-        b.setOnClickListener(this);
 
 
     }
@@ -70,9 +65,7 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
 
         switch (v.getId())
         {
-            case R.id.btn:
-                casilla.setText("Adios putito");
-                break;
+
         }
 
     }

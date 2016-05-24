@@ -52,6 +52,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Estantes"
+        android:id="@+id/btn_estantes"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Salir"
         android:id="@+id/btn_salir"
         android:layout_gravity="center_horizontal" />
