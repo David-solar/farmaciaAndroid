@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Farmacia</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_medicamentos">Medicamentos</string>
+    <string name="title_activity_sobre_desarrolladores">SobreDesarrolladores</string>
+    <string name="des"><b>Desarrolladores:</b>\n\n
+        Flores Martinez Sergio Fabian\n
+        Flores Mauricio David\n
+        Grimaldo Hernandez Juan de Jesus\n
+        Del Villar Rebollar Jonathan Jesus\n
+        Olascoaga Gomez Rodolfo el Reno\n
+    </string>
+</resources>
