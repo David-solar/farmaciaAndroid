@@ -25,6 +25,20 @@
         <activity
             android:name=".SobreDesarrolladores"
             android:label="@string/title_activity_sobre_desarrolladores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AltasMedicamento"
+            android:label="@string/title_activity_altas_medicamento"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MedicamentoBajas"
+            android:label="@string/title_activity_medicamento_bajas"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.topicos.farmacia.farmacia.Farmacia">
+
+    <item
+        android:id="@+id/nuevo"
+        android:orderInCategory="100"
+        android:title="Nuevo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/modificar"
+        android:orderInCategory="100"
+        android:title="Modificar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/guardar"
+        android:orderInCategory="100"
+        android:title="Guardar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/inicio"
+        android:orderInCategory="100"
+        android:title="Inicio"
+        app:showAsAction="always" />
+
+</menu>

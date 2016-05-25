@@ -1,5 +1,6 @@
 package com.topicos.farmacia.farmacia;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,11 +11,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Farmacia extends AppCompatActivity implements View.OnClickListener{
 
 
-
+    Button med;
+    Button emp;
+    Button vent;
+    Button clasi;
+    Button estan;
+    Button sal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +40,19 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
         });
 
 
+        med = (Button) findViewById(R.id.btn_medicamento);
+        emp = (Button) findViewById(R.id.btn_empleados);
+        vent = (Button) findViewById(R.id.btn_ventas);
+        clasi = (Button) findViewById(R.id.btn_clasificacion);
+        estan = (Button) findViewById(R.id.btn_estantes);
+        sal = (Button) findViewById(R.id.btn_salir);
 
+        med.setOnClickListener(this);
+        emp.setOnClickListener(this);
+        vent.setOnClickListener(this);
+        clasi.setOnClickListener(this);
+        estan.setOnClickListener(this);
+        sal.setOnClickListener(this);
 
 
     }
@@ -52,9 +71,12 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (id)
+        {
+            case R.id.sobDes:
+                Intent mov1 = new Intent(this, SobreDesarrolladores.class);
+                startActivity(mov1);
+            break;
         }
 
         return super.onOptionsItemSelected(item);
@@ -65,7 +87,32 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
 
         switch (v.getId())
         {
+            case R.id.btn_medicamento:
+                Intent mov1 = new Intent(this, Medicamentos.class);
+                startActivity(mov1);
+                break;
 
+            case R.id.btn_empleados:
+                Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.btn_ventas:
+                Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.btn_clasificacion:
+                Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.btn_estantes:
+                Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.btn_salir:
+                //Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+
+                System.exit(0);
+                break;
         }
 
     }

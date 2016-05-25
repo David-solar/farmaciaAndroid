@@ -4,10 +4,12 @@
     <string name="title_activity_medicamentos">Medicamentos</string>
     <string name="title_activity_sobre_desarrolladores">SobreDesarrolladores</string>
     <string name="des"><b>Desarrolladores:</b>\n\n
-        Flores Martinez Sergio Fabian\n
-        Flores Mauricio David\n
-        Grimaldo Hernandez Juan de Jesus\n
-        Del Villar Rebollar Jonathan Jesus\n
+        Flores Martinez Sergio Fabian\n\n
+        Flores Mauricio David\n\n
+        Grimaldo Hernandez Juan de Jesus\n\n
+        Del Villar Rebollar Jonathan Jesus\n\n
         Olascoaga Gomez Rodolfo el Reno\n
     </string>
+    <string name="title_activity_altas_medicamento">Altas de medicamento</string>
+    <string name="title_activity_medicamento_bajas">Medicamentos existentes</string>
 </resources>
