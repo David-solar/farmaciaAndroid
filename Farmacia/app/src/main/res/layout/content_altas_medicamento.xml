@@ -26,13 +26,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nombre"
-                android:id="@+id/tv_medicamento"
+                android:id="@+id/tv_nombre"
                 android:textSize="18dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/et_medicamento" />
+                android:id="@+id/et_nombre" />
 
             <TextView
                 android:layout_width="match_parent"

@@ -16,15 +16,15 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/guardar"
+        android:id="@+id/actualizar"
         android:orderInCategory="100"
-        android:title="Guardar"
-        app:showAsAction="never" />
+        android:title="Actualizar"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/inicio"
         android:orderInCategory="100"
         android:title="Inicio"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
 
 </menu>

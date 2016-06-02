@@ -32,7 +32,7 @@ public class MedicamentoBajas extends AppCompatActivity implements AdapterView.O
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id)
     {
-        //esto regresa un log.i y este es la posicion del item
+
 
 
     }

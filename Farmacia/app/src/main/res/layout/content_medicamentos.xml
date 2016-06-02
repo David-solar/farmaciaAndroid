@@ -13,24 +13,16 @@
     tools:showIn="@layout/activity_medicamentos"
     android:orientation="vertical">
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Altas"
-        android:id="@+id/btn_altas"
-        android:layout_gravity="center_horizontal" />
+        android:text="Mantener Presionado para eliminar"
+        android:id="@+id/textView3"
+        android:textSize="20dp" />
 
-    <Button
-        android:layout_width="wrap_content"
+    <ListView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bajas"
-        android:id="@+id/btn_bajas"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/lve_e" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Consultas"
-        android:id="@+id/btn_consultas"
-        android:layout_gravity="center_horizontal" />
 </LinearLayout>

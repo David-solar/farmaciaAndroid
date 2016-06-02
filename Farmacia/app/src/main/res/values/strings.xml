@@ -12,4 +12,8 @@
     </string>
     <string name="title_activity_altas_medicamento">Altas de medicamento</string>
     <string name="title_activity_medicamento_bajas">Medicamentos existentes</string>
+    <string name="title_activity_ventas">Ventas</string>
+    <string name="title_activity_altas_ventas">AltasVentas</string>
+    <string name="title_activity_empleados">Empleados</string>
+    <string name="title_activity_altas_empleados">AltasEmpleados</string>
 </resources>

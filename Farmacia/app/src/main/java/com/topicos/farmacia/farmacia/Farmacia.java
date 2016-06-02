@@ -43,14 +43,14 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
         med = (Button) findViewById(R.id.btn_medicamento);
         emp = (Button) findViewById(R.id.btn_empleados);
         vent = (Button) findViewById(R.id.btn_ventas);
-        clasi = (Button) findViewById(R.id.btn_clasificacion);
+       // clasi = (Button) findViewById(R.id.btn_clasificacion);
         estan = (Button) findViewById(R.id.btn_estantes);
         sal = (Button) findViewById(R.id.btn_salir);
 
         med.setOnClickListener(this);
         emp.setOnClickListener(this);
         vent.setOnClickListener(this);
-        clasi.setOnClickListener(this);
+        //clasi.setOnClickListener(this);
         estan.setOnClickListener(this);
         sal.setOnClickListener(this);
 
@@ -93,16 +93,18 @@ public class Farmacia extends AppCompatActivity implements View.OnClickListener{
                 break;
 
             case R.id.btn_empleados:
-                Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+                Intent mov4 = new Intent(this, Empleados.class);
+                startActivity(mov4);
                 break;
 
             case R.id.btn_ventas:
-                Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
+                Intent mov2 = new Intent(this, Ventas.class);
+                startActivity(mov2);
                 break;
 
-            case R.id.btn_clasificacion:
+           /* case R.id.btn_clasificacion:
                 Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
-                break;
+                break;*/
 
             case R.id.btn_estantes:
                 Toast.makeText(getApplicationContext(),"disponible en version 2", Toast.LENGTH_SHORT).show();
